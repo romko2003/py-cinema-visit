@@ -15,4 +15,4 @@ def cinema_visit(customers: List[Dict[str, str]], number: int, cleaner: str, mov
         CinemaBar.sell_product(customer=customer, product=customer.food)
 
     hall: CinemaHall = CinemaHall(number=number)
-    hall.movie_session(movie_name=movie, customers=customer_objects, cleaning_staff=cleaner_obj)
+    hall.movie_session(movie_name=movie, customers=customer_objects, cleaning_staff=cleaner_obj)n
